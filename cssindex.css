@@ -1,0 +1,41 @@
+body {
+	font-family: 'Bebas Neue', sans-serif;
+	font-family: 'Poppins', sans-serif;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+.obnav{
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+	padding: 5px 5px;
+	margin: 0 auto;
+}
+
+.obnav:hover{
+	background: skyblue;
+	padding: 10px 15px;
+}
+
+.obnav:{
+}
+
+.SeccionNav{
+	background: lightblue;
+}
+
+@media (max-width: 850px){
+	.obnav{
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 550px){
+	.obnav{
+		font-size: 16px;
+	}
+}
